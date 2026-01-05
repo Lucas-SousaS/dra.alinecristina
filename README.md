@@ -30,4 +30,4 @@ O projeto utiliza **React** e **Tailwind CSS**, seguindo boas práticas de front
 - React  
 - Tailwind CSS  
 - JavaScript (ES6+)  
-- Vite *(ou CRA, ajuste conforme o setup)*
+- Vite
