@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* tema claro */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1e293b;
+  --color-primary: #0d2c41;
+
+  --font-sans: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-serif: 'Alike', serif;
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-image: url('/src/assets/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+/* tema escuro */
+.dark {
+  --color-bg: #0f172a;
+  --color-text: #e5e7eb;
+  --color-primary: #38bdf8;
+}
+
+
+/* base */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

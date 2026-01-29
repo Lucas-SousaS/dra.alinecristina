@@ -1,0 +1,17 @@
+.barra {
+  height: 1px;
+  width: 0%;
+  background-color: #d4af37;
+  transition: all 0.3s ease-in-out;
+}
+.link:hover .barra {
+  width: 100%;
+
+}
+.link {
+  transition: all 0.6s ease-in-out;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
